@@ -2,7 +2,7 @@ package h2;
 
 public class H2_main {
 	public static void main(String[] args) {
-		int jahr=400;
+		int jahr=501;
 		boolean schalt=false;
 		int rest4=jahr%4;
 		int rest100=jahr%100;
