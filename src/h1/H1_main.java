@@ -13,10 +13,13 @@ public class H1_main {
 			rating -= 1;
 			if (rating<0) {
 				warnhinweis=true;
-			} else warnhinweis=false;
+			} 
 		}
 		negativ=true;
-	} else negativ=false;
+	} else {
+		negativ=false;
+		warnhinweis=false;
+	}
 	if (guthaben>0) {
 		rating += 3;
 	} 
